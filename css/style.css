@@ -30,11 +30,11 @@ a {
     clear: both;
 }
 
-.start {
+section.start {
     background-color: #000000;
-    height: 680px;
+    min-height: 680px;
     /*height: 100vh;*/
-    background: url(../img/02_start.png) no-repeat #000000;
+    background: url(../img/02_start1200.png) no-repeat #000000;
     background-position: 50% 100%;
     min-width: 1200px;
 }
@@ -42,15 +42,18 @@ a {
 .logo {
     padding-top: 20px;
     padding-left: 24px;
-    float: left;
+    position: fixed;
+    z-index: 10;
 }
 
 .menu_button {
     padding-top: 16px;
     padding-right: 24px;
-    float: right;
+    right: 0;
     cursor: pointer;
     display: block;
+    position: fixed;
+    z-index: 10;
 }
 
 .menu_button-hidden {
@@ -129,4 +132,114 @@ a {
 .menu-submenu a {
     display: inline-block;
     vertical-align: middle;
+}
+
+section.news {
+    background-color: #000000;
+    min-height: 680px;
+    /*height: 100vh;*/
+    background: url(../img/03_news1200.png) no-repeat #000000;
+    background-position: 50% 100%;
+    min-width: 1200px;
+}
+
+.news-content {
+    background-color: #ededee;
+    position: absolute;
+    width: 345px;
+    min-height: 287px;
+    font-size: 13.09px;
+}
+
+h2 {
+    font-size: 47.42px;
+}
+
+.news-information {
+    font-size: 44.22px;
+    color: #ffffff;
+}
+
+h2,
+h3 {
+    margin: 0;
+}
+
+h3.news-date {
+    font-size: 92.63px;
+    color: #ffffff;
+}
+
+section.explore {
+    background-color: #000000;
+    min-height: 680px;
+    /*height: 100vh;*/
+    background: url(../img/04_explore1200.png) no-repeat #000000;
+    background-position: 50% 100%;
+    min-width: 1200px;
+}
+
+.explore-content {
+    background-color: #ededee;
+    position: absolute;
+    width: 345px;
+    min-height: 287px;
+    font-size: 13.09px;
+}
+
+section.howitworks {
+    background-color: #ffffff;
+    min-height: 680px;
+    /*height: 100vh;*/
+    background: url(../img/05_howitworks1200.png) no-repeat #ffffff;
+    background-position: 50% 100%;
+    min-width: 1200px;
+}
+
+section.app {
+    background-color: #ffffff;
+    min-height: 680px;
+    /*height: 100vh;*/
+    background: url(../img/06_app1200.png) no-repeat #ffffff;
+    background-position: 50% 100%;
+    min-width: 1200px;
+}
+
+.app-content {
+    background-color: #ededee;
+    position: absolute;
+    width: 345px;
+    min-height: 287px;
+    font-size: 13.09px;
+}
+
+section.range {
+    background-color: #ffffff;
+    min-height: 482px;
+    /*height: 100vh;*/
+    /*background: url(../img/06_app1200.png) no-repeat #ffffff;*/
+    background-position: 50% 100%;
+    min-width: 1200px;
+}
+
+.about-model {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+section.whoarewe {
+    background-color: #ffffff;
+    min-height: 680px;
+    /*height: 100vh;*/
+    background: url(../img/08_whoweare1200.png) no-repeat #ffffff;
+    background-position: 50% 100%;
+    min-width: 1200px;
+}
+
+.whoarewe-content {
+    background-color: #ededee;
+    position: absolute;
+    width: 345px;
+    min-height: 287px;
+    font-size: 13.09px;
 }
