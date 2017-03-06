@@ -149,24 +149,71 @@ section.news {
     min-width: 1200px;
 }
 
+.news-date {
+    position: absolute;
+    color: #ffffff;
+    font-size: 92.67px;
+    top: 80px;
+    left: 10px;
+}
+
+.news-information {
+    position: absolute;
+    font-family: 'Conv_plumb-light', Sans-Serif;
+    font-size: 44.24px;
+    color: #ffffff;
+    left: 239px;
+    top: 409px;
+}
+
 .news-content {
     background-color: #ededee;
     position: absolute;
     width: 345px;
     min-height: 287px;
     font-size: 13.09px;
-    position: absolute;
     top: 60px;
     right: 50px;
 }
 
-h2 {
-    font-size: 47.42px;
+.news-content h2 {
+    font-weight: normal;
+    font-size: 47.41px;
+    margin-top: 29px;
+    margin-bottom: 17px;
+    padding-left: 105px;
 }
 
-.news-information {
-    font-size: 44.22px;
-    color: #ffffff;
+.news-content h2::before {
+    content: "";
+    position: absolute;
+    width: 57px;
+    height: 65px;
+    top: 22px;
+    left: 36px;
+    background: transparent url("../img/qoobi_header_logo.png") no-repeat;
+}
+
+.subscribe {
+    text-transform: uppercase;
+    padding: 0 45px;
+    font-size: 9.43px;
+    position: absolute;
+    bottom: 36px;
+}
+
+.subscribe::before {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 13px;
+    left: 36px;
+    top: -1px;
+    background: transparent url("../img/icons/path_small.png") no-repeat;
+}
+
+h2 {
+    font-size: 47.42px;
 }
 
 h2,
@@ -197,6 +244,24 @@ section.explore {
     position: absolute;
     top: 60px;
     right: 50px;
+}
+
+.explore-content h2 {
+    font-weight: normal;
+    font-size: 47.41px;
+    margin-top: 29px;
+    margin-bottom: 17px;
+    padding-left: 35px;
+}
+
+.explore-content h2::after {
+    content: "";
+    position: absolute;
+    width: 57px;
+    height: 65px;
+    top: 22px;
+    right: 90px;
+    background: transparent url("../img/qoobi_header_logo.png") no-repeat;
 }
 
 section.howitworks {
