@@ -4,9 +4,20 @@
     src: local('☺'), url('../fonts/plumb-regular.woff') format('woff'), url('../fonts/plumb-regular.ttf') format('truetype'), url('../fonts/plumb-regular.svg') format('svg');
     font-weight: normal;
     font-style: normal;
+}
+
+@font-face {
     font-family: 'Conv_plumb-light';
     src: url('../fonts/plumb-light.eot');
     src: local('☺'), url('../fonts/plumb-light.woff') format('woff'), url('../fonts/plumb-light.ttf') format('truetype'), url('../fonts/plumb-light.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_Politica XT Thin';
+    src: url('../fonts/Politica XT Thin.eot');
+    src: local('☺'), url('../fonts/Politica XT Thin.woff') format('woff'), url('../fonts/Politica XT Thin.ttf') format('truetype'), url('../fonts/Politica XT Thin.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -150,11 +161,12 @@ section.news {
 }
 
 .news-date {
+    font-family: 'Conv_Politica XT Thin', Sans-Serif;
     position: absolute;
     color: #ffffff;
     font-size: 92.67px;
-    top: 80px;
-    left: 10px;
+    top: 78px;
+    left: 29px;
 }
 
 .news-information {
