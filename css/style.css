@@ -247,6 +247,24 @@ section.explore {
     min-width: 1200px;
 }
 
+.explore h3 {
+    color: #ffffff;
+    font-family: 'Conv_plumb-light', sans-serif;;
+    font-size: 45px;
+    position: absolute;
+    top: 262px;
+    left: 80px;
+    font-weight: 400;
+}
+
+.explore h3 img {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 8px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+}
+
 .explore-content {
     background-color: #ededee;
     position: absolute;
@@ -276,6 +294,42 @@ section.explore {
     background: transparent url("../img/qoobi_header_logo.png") no-repeat;
 }
 
+.explore .features {
+    position: absolute;
+    top: 527px;
+    left: 189px;
+}
+
+.explore .feature {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 220px;
+}
+
+.explore .feature:nth-child(2) {
+    padding-left: 75px;
+}
+
+.explore .feature:nth-child(3) {
+    padding-left: 78px;
+}
+
+.feature h4 {
+    font-family: 'Conv_plumb-light', sans-serif;;
+    font-size: 52px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 7px;
+}
+
+.feature p {
+    font-family: 'Conv_plumb-light', sans-serif;
+    font-size: 13.6px;
+    margin: 0;
+    padding: 0 20px;
+}
+
 section.howitworks {
     background-color: #ffffff;
     min-height: 680px;
@@ -283,6 +337,23 @@ section.howitworks {
     background: url(../img/05_howitworks1200.png) no-repeat #ffffff;
     background-position: 50% 100%;
     min-width: 1200px;
+}
+
+.howitworks h2 {
+    font-size: 47.44px;
+    font-family: 'Conv_plumb-regular', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding-left: 78px;
+    padding-top: 43px;
+
+}
+
+.howitworks h2 img {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 0;
+    margin-right: 5px;
 }
 
 section.app {
@@ -431,7 +502,7 @@ section.whoarewe {
 
 .face {
     /*display: inline-block;
-    vertical-align: top;*/
+  vertical-align: top;*/
     float: left;
     /*padding-left: 50px;*/
     padding-right: 36px;
